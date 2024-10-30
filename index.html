@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="./ava.jpg">
+<title>Web console</title></head>
+<div id="console">Your commands:</div>
+  <input type="text" id="inputField" placeholder='Write "Commands" to find out all the codes' autofocus>
+
+  <!-- Модальне вікно для пропозицій -->
+  <div id="modal">
+    <div id="modalContent">
+      <h2>Submit Proposal</h2>
+      <textarea id="proposalInput" rows="4" cols="30" placeholder="Enter your proposal here"></textarea><br>
+      <button id="submitBtn">Submit</button>
+      <button id="closeBtn">Close</button>
+    </div>
+  </div>
+
+  <!-- Модальне вікно для відео -->
+  <div id="videoModal">
+    <div id="videoModalContent">
+      <h2>HAHAHAHAHAH >:)</h2>
+      <video id="video" controls>
+        <source src="./RickRoll.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video><br>
+      <button id="closeVideoBtn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

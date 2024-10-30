@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    padding: 20px;
+  }
+  #console {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+    background-color: black;
+    color: lime;
+    padding: 10px;
+    border: 1px solid lime;
+  }
+  #inputField {
+    width: 100%;
+    background-color: black;
+    color: lime;
+    border: none;
+    outline: none;
+    font-family: monospace;
+  }
+
+
+
+  #modal {
+    display: none; /* Сховати модальне вікно за замовчуванням */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #modalContent {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+  }
+  #closeBtn {
+    background-color: #f44336; /* Червоний колір */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+  #modal, #videoModal {
+    display: none; /* Сховати модальні вікна за замовчуванням */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #modalContent, #videoModalContent {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+  }
+  #closeBtn, #closeVideoBtn {
+    background-color: #f44336; /* Червоний колір */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  #video {
+    width: 100%;
+    height: auto;
+  }
